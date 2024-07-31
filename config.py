@@ -3,10 +3,10 @@
 
 from os import getenv
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "20373203"))
+API_HASH = getenv("API_HASH", "8962717c7c708e210f66ea658db58d85")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = int(getenv("OWNER_ID", ""))
-MONGODB_CONNECTION_STRING = getenv("MONGO_DB", "")
-LOG_GROUP = int(getenv("LOG_GROUP", ""))
-FORCESUB = getenv("FORCESUB", "")
+OWNER_ID = int(getenv("OWNER_ID", "6994050538"))
+MONGODB_CONNECTION_STRING = getenv("MONGO_DB", "mongodb+srv://Hola:Ram@cluster0.af3d5fq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+LOG_GROUP = int(getenv("LOG_GROUP", "-1002207691468"))
+FORCESUB = getenv("FORCESUB", "-1002173398000")
